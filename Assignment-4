@@ -1,1 +1,206 @@
+# Assignment 4 - Prompt Engineering Experiments
 
+## Student Information
+
+**Name:** M. Ahmad Kamal  
+**University:** NFC Institute of Engineering and Fertilizer Research (NFC IEFR)  
+**Program:** BS Computer Science  
+**Course:** AI Agent Fellowship 2026
+
+---
+
+# Introduction
+
+Prompt engineering is the process of writing clear and effective prompts to get better responses from AI models. Different prompting techniques can improve the quality, accuracy, and structure of AI-generated answers. In this assignment, I performed five prompt engineering experiments and observed how different prompts affect the AI's responses.
+
+---
+
+# Experiment 1 - Role Prompting
+
+## Prompt
+
+```text
+You are a professional software engineer.
+
+Explain Python in simple words for beginners.
+```
+
+## Output
+
+Python is one of the most popular programming languages in the world. It is easy to learn because its syntax is simple and readable. Python is used in web development, artificial intelligence, data science, automation, and software development. It is a great programming language for beginners because it allows them to understand programming concepts quickly.
+
+## Observations
+
+When I assigned the AI the role of a professional software engineer, the explanation became more organized and professional. The response was focused on programming instead of giving a general answer.
+
+## Improvements
+
+The prompt can be improved by clearly mentioning the target audience.
+
+**Improved Prompt**
+
+```text
+You are a senior Python instructor. Explain Python to first-year Computer Science students using simple language and practical examples.
+```
+
+---
+
+# Experiment 2 - Chain-of-Thought Prompting
+
+## Prompt
+
+```text
+Think step by step.
+
+A student scored 78, 82, 91, and 89 marks in four subjects. Find the average marks.
+```
+
+## Output
+
+Step 1: Add all the marks.
+
+78 + 82 + 91 + 89 = 340
+
+Step 2: Divide the total by the number of subjects.
+
+340 ÷ 4 = 85
+
+Final Answer:
+
+The average marks are **85**.
+
+## Observations
+
+The AI explained each calculation before giving the final answer. This made the solution easier to understand and helped show the complete reasoning process.
+
+## Improvements
+
+The prompt can be improved by asking the AI to explain why each calculation step is performed instead of only showing the calculations.
+---
+
+# Experiment 3 - Few-Shot Prompting
+
+## Prompt
+
+```text
+Country: Pakistan
+Capital: Islamabad
+
+Country: Japan
+Capital: Tokyo
+
+Country: Australia
+Capital:
+```
+
+## Output
+
+Canberra
+
+## Observations
+
+The AI understood the pattern from the given examples and correctly identified the capital of Australia. Providing examples before asking the question helped the AI understand the required format.
+
+## Improvements
+
+More examples can be added when working with difficult tasks or larger datasets. This helps the AI produce more accurate and consistent responses.
+
+---
+
+# Experiment 4 - Structured Output (JSON)
+
+## Prompt
+
+```text
+Return the following information only in JSON format.
+
+Name: Ahmad
+Age: 21
+University: NFC IEFR
+Department: Computer Science
+```
+
+## Output
+
+```json
+{
+  "name": "Ahmad",
+  "age": 21,
+  "university": "NFC IEFR",
+  "department": "Computer Science"
+}
+```
+
+## Observations
+
+The AI returned the information in a clean JSON format without adding extra text. This type of output is useful because it can easily be used in web applications, APIs, and software projects.
+
+## Improvements
+
+The prompt can be improved by specifying additional fields such as semester, CGPA, email, or student ID if more detailed information is required.
+
+---
+
+# Experiment 5 - Prompt Optimization
+
+## Basic Prompt
+
+```text
+Tell me about Artificial Intelligence.
+```
+
+## Basic Output
+
+Artificial Intelligence (AI) is a technology that allows computers to perform tasks that usually require human intelligence.
+
+### Improved Prompt
+
+```text
+Write a 150-word explanation of Artificial Intelligence for BS Computer Science students. Include its definition, applications, advantages, challenges, and future scope in simple English.
+```
+
+## Improved Output
+
+Artificial Intelligence (AI) is a branch of computer science that enables machines to perform tasks such as learning, problem-solving, and decision-making. AI is used in many fields, including healthcare, education, banking, transportation, and cybersecurity. It helps automate repetitive tasks, improves accuracy, and saves time. Although AI offers many benefits, it also creates challenges such as privacy concerns, ethical issues, and job displacement. As technology continues to grow, AI is expected to become an important part of everyday life and create new opportunities for innovation. Learning AI is valuable for Computer Science students because it is one of the fastest-growing fields in technology.
+
+## Observations
+
+The improved prompt produced a longer, more organized, and more useful response. It covered all the requested points and was easier to understand than the basic prompt.
+
+## Improvements
+
+Adding a specific writing style, word limit, or target audience can make the response even more accurate and relevant.
+
+---
+
+# Conclusion
+
+These experiments showed that writing better prompts leads to better AI responses. Different prompt engineering techniques help improve the quality, accuracy, and clarity of AI-generated content. By using Role Prompting, Chain-of-Thought Prompting, Few-Shot Prompting, Structured Output, and Prompt Optimization, it becomes easier to get responses that match the required task. Learning prompt engineering is an important skill for anyone working with modern AI tools.
+
+---
+
+# References
+
+1. OpenAI – Prompt Engineering Guide  
+   https://platform.openai.com/docs/guides/prompt-engineering
+
+2. Prompt Engineering Guide  
+   https://www.promptingguide.ai/
+
+3. Microsoft Learn – Prompt Engineering  
+   https://learn.microsoft.com/azure/ai-services/openai/concepts/prompt-engineering
+
+4. Anthropic Documentation  
+   https://docs.anthropic.com/
+
+---
+
+# Author
+
+**M. Ahmad Kamal**
+
+BS Computer Science
+
+NFC Institute of Engineering and Fertilizer Research (NFC IEFR)
+
+AI Agent Fellowship 2026
